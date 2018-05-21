@@ -1,0 +1,25 @@
+[
+  {
+    "id": "5e7d911e-3574-4cfe-86f3-5ad9582f64a3",
+    "data": [
+      {
+        "text": "Manage Collector Settings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3b432c33-df87-470c-ad20-bf0a81049787",
+    "data": [
+      {
+        "text": "Manage Settings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1510517587
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "id": "d3e77d91-6e8b-45f0-878f-47ddf603f951",
+  "name": "CollectorSettings",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "list_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Settings",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "opty1",
+                "synonyms": []
+              },
+              "title": "Calls Frequency",
+              "description": "Daily"
+            },
+            {
+              "optionInfo": {
+                "key": "opty2",
+                "synonyms": []
+              },
+              "title": "SMS frequency",
+              "description": "3 hours"
+            },
+            {
+              "optionInfo": {
+                "key": "opty3",
+                "synonyms": []
+              },
+              "title": "Number",
+              "description": "12015542287"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Main Menu"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Settings"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510517587224,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "536789bc-2d29-42ec-88fa-1c1bb8ee37b1",
+    "data": [
+      {
+        "text": "Collector Account Information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6a02b3fe-a702-4c3b-b393-b861c1e1dc4b",
+    "data": [
+      {
+        "text": "Collector Info",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f7843c99-375f-4054-9605-b4e5e75a2b75",
+    "data": [
+      {
+        "text": "Collector Information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1510507469
+  },
+  {
+    "id": "ff93b642-4d75-4fb1-acb7-9bf76b6025bb",
+    "data": [
+      {
+        "text": "Collector Account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d97afa0e-492a-466e-aa9d-474ea965ae75",
+    "data": [
+      {
+        "text": "Collector Account Info",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

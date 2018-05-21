@@ -1,0 +1,72 @@
+{
+  "id": "7a74d50d-2948-47d0-896b-12601a1996e6",
+  "name": "CollectorAccountTotal",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "list_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Collector Account Details",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "opt1",
+                "synonyms": []
+              },
+              "title": "Number of Calls Today",
+              "description": "25"
+            },
+            {
+              "optionInfo": {
+                "key": "opt2",
+                "synonyms": []
+              },
+              "title": "Number of SMS Today",
+              "description": "50"
+            },
+            {
+              "optionInfo": {
+                "key": "opt3",
+                "synonyms": []
+              },
+              "title": "Nexmo Balance",
+              "description": "$85.95"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Main Menu"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Collector Details"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510507469023,
+  "fallbackIntent": false,
+  "events": []
+}

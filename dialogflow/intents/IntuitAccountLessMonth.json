@@ -1,0 +1,44 @@
+{
+  "id": "3526bdd1-7068-4f69-8e83-2a39b241cbc4",
+  "name": "IntuitAccountLessMonth",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "$1,125.50 is less then 1 month aged AR amount"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Less than month details"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "$1,125.50 is less then 1 month aged AR amount"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510506379195,
+  "fallbackIntent": false,
+  "events": []
+}

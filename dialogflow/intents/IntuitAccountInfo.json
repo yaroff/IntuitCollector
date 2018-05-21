@@ -1,0 +1,57 @@
+{
+  "id": "2bbaaa0b-2104-4475-ab6f-ffe412df82b6",
+  "name": "IntuitAccountInfo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Total Aged AR Amount",
+          "formattedText": "$1525.50 - total aged AR amount",
+          "buttons": []
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Less than month aged AR"
+            },
+            {
+              "title": "1 month aged AR"
+            },
+            {
+              "title": "2 month aged AR"
+            },
+            {
+              "title": "3+ month aged AR"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Details of the account"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510505715547,
+  "fallbackIntent": false,
+  "events": []
+}
